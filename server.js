@@ -3,7 +3,7 @@ const app = express();
 const port = process.env.PORT || 3000;
 
 app.get('/', (req, res) => {
-  res.send('Welcome to the Inventory Management System!');
+  res.send('Welcome to the Inventory Management System. Your resources are managed here!');
 });
 
 app.listen(port, () => {
